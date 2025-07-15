@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    background-color: black;
+    color:  white;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#main{
+    display: flex;
+}
+
+section{
+    background-color: purple;
+    width: 500px;
+    border-radius: 1.5rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.divClass{
+    display: flex;
+    flex-direction: column;
+}
+
+.divClass>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 15px;
+}
